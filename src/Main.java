@@ -33,23 +33,23 @@ public class Main {
 
         if(op=='+')
         {
-//            add();
+            add();
         }
         else if(op=='-')
         {
-//            sub();
+            sub();
         }
         else if(op=='*')
         {
-//            mult();
+            mult();
         }
         else if(op=='/')
         {
-//            div();
+            div();
         }
         else if(op=='a')
         {
-//            avg();
+            avg();
         }
 
         else
