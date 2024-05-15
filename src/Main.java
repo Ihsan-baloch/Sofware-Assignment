@@ -31,6 +31,34 @@ public class Main {
         char op=ne.next().charAt(0);
 
 
+        if(op=='+')
+        {
+//            add();
+        }
+        else if(op=='-')
+        {
+//            sub();
+        }
+        else if(op=='*')
+        {
+//            mult();
+        }
+        else if(op=='/')
+        {
+//            div();
+        }
+        else if(op=='a')
+        {
+//            avg();
+        }
+
+        else
+        {
+            System.out.print("you entered invalid operation");
+        }
+
 
     }
+
+
 }
