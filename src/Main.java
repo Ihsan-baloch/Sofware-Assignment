@@ -28,26 +28,26 @@ public class Main {
 
         System.out.println("Enter number which are mentioned above");
         Scanner ne=new Scanner(System.in);
-        char op=ne.next().charAt(0);
+        int op=ne.nextInt();
 
 
-        if(op=='+')
+        if(op==1)
         {
             add();
         }
-        else if(op=='-')
+        else if(op==2)
         {
             sub();
         }
-        else if(op=='*')
+        else if(op==3)
         {
             mult();
         }
-        else if(op=='/')
+        else if(op==4)
         {
             div();
         }
-        else if(op=='a')
+        else if(op==5)
         {
             avg();
         }
