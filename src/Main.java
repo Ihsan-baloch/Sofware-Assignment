@@ -37,7 +37,7 @@ public class Main {
         }
         else if(op=='-')
         {
-//            sub();
+            sub();
         }
         else if(op=='*')
         {
@@ -45,7 +45,7 @@ public class Main {
         }
         else if(op=='/')
         {
-//            div();
+            div();
         }
         else if(op=='a')
         {
@@ -114,5 +114,18 @@ public class Main {
 
     }
 
+    static void sub()
+    {
+
+        Scanner ne=new Scanner(System.in);
+        System.out.println("Enter first number");
+        int  a=ne.nextInt();
+
+        System.out.println("Enter second number");
+        int  b=ne.nextInt();
+
+        System.out.print("Subtraction of numbers is = "+(a-b));
+
+    }
 
 }
