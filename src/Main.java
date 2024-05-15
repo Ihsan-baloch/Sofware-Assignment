@@ -33,7 +33,7 @@ public class Main {
 
         if(op=='+')
         {
-//            add();
+            add();
         }
         else if(op=='-')
         {
@@ -58,7 +58,24 @@ public class Main {
         }
 
 
-    }
 
+
+    }
+    static void add()
+    {
+
+
+        Scanner ne=new Scanner(System.in);
+
+        System.out.println("Enter first number");
+        int  a=ne.nextInt();
+
+        System.out.println("Enter second number");
+        int  b=ne.nextInt();
+
+
+        System.out.print("sum of numbers is = "+(a+b));
+
+    }
 
 }
