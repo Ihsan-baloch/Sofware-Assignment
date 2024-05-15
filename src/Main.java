@@ -49,7 +49,7 @@ public class Main {
         }
         else if(op=='a')
         {
-//            avg();
+            avg();
         }
 
         else
@@ -100,7 +100,7 @@ public class Main {
         int  b=ne.nextInt();
         if(a==0){
 
-            System.out.print("Division of numbers is = "+(a/b));
+            System.out.print("Division of numbers is = "+(0));
 
         }
 
@@ -127,5 +127,16 @@ public class Main {
         System.out.print("Subtraction of numbers is = "+(a-b));
 
     }
+    static void avg() {
 
-}
+        Scanner ne = new Scanner(System.in);
+        System.out.println("Enter first number");
+        double a = ne.nextDouble();
+
+        System.out.println("Enter second number");
+        double b = ne.nextDouble();
+        double totol = (a + b) / 2;
+        System.out.print("avg of numbers is = " + totol);
+
+    }
+    }
