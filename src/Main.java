@@ -37,7 +37,7 @@ public class Main {
         }
         else if(op=='-')
         {
-            sub();
+//            sub();
         }
         else if(op=='*')
         {
@@ -45,11 +45,11 @@ public class Main {
         }
         else if(op=='/')
         {
-            div();
+//            div();
         }
         else if(op=='a')
         {
-            avg();
+//            avg();
         }
 
         else
@@ -57,6 +57,60 @@ public class Main {
             System.out.print("you entered invalid operation");
         }
 
+
+
+
+    }
+    static void add()
+    {
+
+
+        Scanner ne=new Scanner(System.in);
+
+        System.out.println("Enter first number");
+        int  a=ne.nextInt();
+
+        System.out.println("Enter second number");
+        int  b=ne.nextInt();
+
+
+        System.out.print("sum of numbers is = "+(a+b));
+
+    }
+    static void mult()
+    {
+
+        Scanner ne=new Scanner(System.in);
+        System.out.println("Enter first number");
+        int  a=ne.nextInt();
+
+        System.out.println("Enter second number");
+        int  b=ne.nextInt();
+
+        System.out.print("Multiplication of numbers is = "+(a*b));
+    }
+    static void div()
+    {
+
+        Scanner ne=new Scanner(System.in);
+        System.out.println("Enter first number");
+        int  a=ne.nextInt();
+
+        System.out.println("Enter second number");
+        int  b=ne.nextInt();
+        if(a==0){
+
+            System.out.print("Division of numbers is = "+(a/b));
+
+        }
+
+        else if(b==0) //for zero condition
+        {
+            System.out.print("Error");
+
+        }
+        else
+            System.out.print("Division of numbers is = "+(a/b));
 
     }
 
