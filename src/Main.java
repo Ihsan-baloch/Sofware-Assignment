@@ -41,7 +41,7 @@ public class Main {
         }
         else if(op=='*')
         {
-//            mult();
+            mult();
         }
         else if(op=='/')
         {
@@ -76,6 +76,18 @@ public class Main {
 
         System.out.print("sum of numbers is = "+(a+b));
 
+    }
+    static void mult()
+    {
+
+        Scanner ne=new Scanner(System.in);
+        System.out.println("Enter first number");
+        int  a=ne.nextInt();
+
+        System.out.println("Enter second number");
+        int  b=ne.nextInt();
+
+        System.out.print("Multiplication of numbers is = "+(a*b));
     }
 
 }
